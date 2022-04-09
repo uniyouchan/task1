@@ -72,11 +72,18 @@ footer {
 
   main {
     width: 100%;
+    margin: 50px auto;
     display: block;
   }
 
   .step-box {
     width: 100%;
+    margin-bottom: 30px;
+    background-color: #eee;
+  }
+
+  .step-box:last-child {
+    margin-right: 0;
   }
 
   footer {
